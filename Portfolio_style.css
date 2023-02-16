@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Fonts/Roboto-Black.woff2') format('woff2'),
+  url('./Fonts/Roboto-Black.woff') format('woff'),
+  url('./Fonts/Roboto-Black.ttf') format('truetype');
+
+}
+
+
+body{
+    background-color: #353442;
+    width: 100%;
+    font-family:'Roboto';
+    margin: 0px;
+}
+
+.navigation.bar {
+  margin-left: 83px;
+}
+
+li#logo {
+  font-size: 30px;
+  float: left;
+  display: block;
+  color: white;
+  margin-right: 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #353442;
+  }
+
+  .fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffc010;
+    padding-right: 4px;
+}
+  
+  li {
+    float: left;
+    font-size: 12px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #6e6f78;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+  
+
+  .left_para {
+    margin: 98px 20px 50px 83px;
+    flex: 33%;
+    position: absolute;
+    font-family: 'Roboto';
+}
+
+h2#first_line {
+  color: #9b9999;
+  font-size: 50px;
+  margin: 0px;
+}
+
+h1#name {
+  color: white;
+  font-size: 80px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.line{
+height: 5px;
+width: 150px;
+background: #ffc010;
+}
+
+p.para {
+  color: #bdbdbd;
+}
+
+.image{
+  flex: 33%;
+  position: relative;
+  margin-top: 73px;
+  margin-left: 515px;
+
+}
+
+
+.right_para{
+  flex: 33%;
+  position: relative;
+  margin-top: 70px;
+}
+
+
+h4#heading {
+  color: #bdbdbd;
+}
+p.para_2 {
+  font-size: 19px;
+  color: white;
+}
+
+span#arrow_line {
+  font-size: 15px;
+  color: #ffc010;
+  cursor: pointer;
+
+}
+
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  color: #ffc010;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+
+.logo_buttons {
+  width: 1000px;
+  height: 44px;
+  background: #24242a;
+  padding-top: 20px;
+  margin-left: 83px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px #000000;
+}
+
+
+
+button.buttons_style {
+  width: 157px;
+  height: 43px;
+  background-color: #e7e3e3;
+  border: none;
+  margin-left: 68px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+
+img#meta {
+    width: 50px;
+    height: 31px;
+  
+
+}
+
+img#google {
+  width: 56px;
+  height: 28px;
+  
+
+}
+
+img#linked {
+  width: 50px;
+  height: 35px;
+  
+
+}
+
+img#slack {
+  width: 50px;
+  height: 31px;
+  
+
+}
+
+.lower {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  padding-left: 83px;
+}
+
+.left {
+  margin-top: 164px;
+  position: relative;
+  flex: 50%;
+}
+
+h2#heading {
+  font-size: 48px;
+  color: white;
+  margin: 0px;
+}
+
+p.para_3 {
+  color: #bdbdbd;
+  font-size: 19px;
+}
+
+
+td.num {
+    color: #ffc010;
+    font-size: 26px;
+}
+
+td.text {
+  color: #bdbdbd;
+}
+
+tr td.empty {
+  background-color: transparent;
+  cursor: auto;
+  border: none;
+  width: 20px;
+}
+
+.right {
+  margin-top: 61px;
+  position: relative;
+  flex: 50%;
+}
+
+img#ui_1 {
+  height: 134px;
+  width: 150px;
+}
+
+img#front_end1 {
+  height: 134px;
+  width: 150px;
+}
+
+img#mobile_1 {
+  height: 134px;
+  width: 150px;
+}
+
+h3.heads {
+  color: white;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+p.descrip {
+  color: #bdbdbd;
+  margin-left: 10px;
+}
+
+span.arrow
+{
+  font-size: 32px;
+  margin-left: 162px;
+  color: #ffc010;
+  cursor: pointer;
+}
+
+tr.space {
+  height: 15px;
+}
+
+.line_2 {
+  display: block;
+  height: 1px;
+  width: 443px;
+  background: #bdbdbd;
+}
+
+img.logo {
+  width: 24px;
+  border-radius: 50%;
+  height: 24px;
+}
+
+.end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 83px;
+  padding-top: 76px;
+}
+
+.box {
+  position: relative;
+  flex: 33%;
+  background: #24242a;
+  padding: 15px;
+  margin-right: 108px;
+  color: white;
+  box-shadow: 0 0 10px #000000;
+}
